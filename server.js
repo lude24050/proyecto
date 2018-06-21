@@ -16,13 +16,13 @@ router.get('/', function(req, res){
   res.json({ message: 'genial! bienvenido a nuestra API!'})
 });
 
-var mascotasRouter = require('./routes/mascotas');
-router.use('/mascotas', mascotasRouter);
+var usuariosRouter = require('./routes/usuarios');
+router.use('/usuarios', usuariosRouter);
 
 app.use('/api', router);
 
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/bda');
+mongoose.connect('mongodb://localhost:27017/Proyecto');
 mongoose.Promise = global.Promise;
 
 app.listen(port);
