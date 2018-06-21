@@ -18,7 +18,7 @@ module.exports={
           count: docs.length,
           data: docs.map(doc=>{
             return{
-              //...doc
+              ...doc
             };
           })const mongoose = require('mongoose');
 const Schema   = mongoose.Schema;
