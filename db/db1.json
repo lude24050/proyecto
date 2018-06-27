@@ -1,0 +1,7 @@
+{"_id":{"$oid":"5b3153c85787d210cdc8283f"},"palabra":"run","significado":"correr","updated_at":{"$date":"2018-06-25T20:42:48.177Z"},"created_at":{"$date":"2018-06-25T20:42:48.177Z"}}
+{"_id":{"$oid":"5b3267f55787d21e7c29a50f"},"palabra":"accept","significado":"aceptar","updated_at":{"$date":"2018-06-26T16:21:09.582Z"},"created_at":{"$date":"2018-06-26T16:21:09.582Z"}}
+{"_id":{"$oid":"5b33ca9c5787d213e63c5a5f"},"palabra":"play","significado":"jugar","updated_at":{"$date":"2018-06-27T17:34:20.170Z"},"created_at":{"$date":"2018-06-27T17:34:20.170Z"}}
+{"_id":{"$oid":"5b33cab55787d213e63c5a60"},"palabra":"sleep","significado":"dormir","updated_at":{"$date":"2018-06-27T17:34:45.991Z"},"created_at":{"$date":"2018-06-27T17:34:45.991Z"}}
+{"_id":{"$oid":"5b33caee5787d213e63c5a61"},"palabra":"fly","significado":"volar","updated_at":{"$date":"2018-06-27T17:35:42.421Z"},"created_at":{"$date":"2018-06-27T17:35:42.421Z"}}
+{"_id":{"$oid":"5b33cb015787d213e63c5a62"},"palabra":"read","significado":"leer","updated_at":{"$date":"2018-06-27T17:36:01.098Z"},"created_at":{"$date":"2018-06-27T17:36:01.098Z"}}
+{"_id":{"$oid":"5b33cb095787d213e63c5a63"},"palabra":"write","significado":"escribir","updated_at":{"$date":"2018-06-27T17:36:09.705Z"},"created_at":{"$date":"2018-06-27T17:36:09.705Z"}}
