@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Freelancer - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+    <link href"css/pro.css" rel="stylesheet">
+
+  </head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+  background-color: #18bc9c;
+  padding: 15px;
+  margin-top: 100px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 3px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.kas1{
+	margin-left:36px;
+  background-color:blue;
+  width:350px;
+  height:200px;
+
+}
+.kas1_1{
+margin-left:85px;
+margin-top:30px;
+  background-color:green;
+  width:250px;
+  height:350px;
+}
+.kas2{
+  margin-top:50px;
+	margin-left:30px;
+  margin-right:10px;
+  background-color:black;
+  width:960px;
+  height:300px;
+}
+.kas2_2{
+  margin-top:140px;
+	margin-left:420px;
+  background-color:red;
+  width:200px;
+  height:80px;
+}
+
+
+
+
+body {
+  background: #212121;
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+}
+.main-container {
+  margin-left:200px;
+  margin-top: 10px;
+  width: 550px;
+}
+.main-container .controls {
+  margin: 0 auto;
+  padding: 2em 0 0 0;
+  text-align: center;
+}
+.coverflow-container {
+  box-reflect: below 0px -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.1) 100%);
+}
+label {
+  color: #999;
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+  background: #252525;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+}
+label:hover {
+  color: #FFF;
+}
+.coverflow-list {
+  width: 100%;
+}
+.coverflow-list .coverflow-item {
+  display: inline-block;
+  background: #414141;
+  margin: 0 -50px;
+  position: relative;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.9);
+}
+.coverflow-list .coverflow-item .album-cover {
+  display: block;
+  height: 200px;
+  margin: 0;
+}
+.coverflow-list .coverflow-item .album-cover img {
+  height: 200px;
+  width: 200px;
+  opacity: 0.5;
+}
+.coverflow-list .coverflow-item .album-name {
+  text-align: center;
+  display: block;
+  color: #444;
+}
+.coverflow-list .coverflow-item label {
+  padding: 0;
+  border: none;
+  display: block;
+  text-shadow: none;
+}
+/* Now apply 3D transforms (never done this before!) */
+.coverflow-list {
+  -webkit-transform: perspective(900px);
+  -webkit-transform-style: preserve-3d;
+  -webkit-perspective-origin: 100% 30%;
+}
+.coverflow-list .coverflow-item {
+  -webkit-transition: all 0.4s ease;
+  background: #212121;
+  -webkit-transform: rotateY(45deg);
+}
+input[type="radio"] {
+  display: none;
+}
+input[type="radio"]:checked + .coverflow-item {
+  -webkit-transform: rotateY(0deg);
+  margin: 0 auto;
+  background: #313131;
+  transition: all 0.4s ease;
+}
+input[type="radio"]:checked + .coverflow-item img {
+  opacity: 1;
+}
+input[type="radio"]:checked + .coverflow-item figcaption {
+  color: #FFFFFF;
+}
+input[type="radio"]:checked + .coverflow-item ~ .coverflow-item {
+  -webkit-transform: rotateY(-45deg);
+  background: #515151;
+}
+/*@keyframes cover-forward {
+  0% { transform: rotateY( 45deg ); }
+  50% { transform: rotateY( 0deg ) translate3d( 60px,0,0 ) scale3d(1.2,1.2,1.2); z-index:999; }
+  100% { transform: rotateY( 45deg ) translate3d( 0,0,0 ) scale3d(1,1,1); }
+}
+
+@keyframes cover-return {
+  0% { transform: rotateY( 45deg ); }
+  100% { transform: rotateY( 0deg ) translate3d( 150px,0,0 ) scale3d(1.2,1.2,1.2); }
+}*/
+</style>
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">BasicEnglish</a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">ACTUALIZACIONES</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">PERFIL</a>
+            </li>
+          </ul>
+        </div>
+
+       </div>
+    </nav>
+
+    <div class="grid-container">
+
+  <div class="grid-item">
+  <div class="kas1"></div>
+  <div class="kas1_1"></div>
+  </div>
+
+  <div class="grid-item">
+  <div class="kas2">
+    <div class="main-container">
+      <div class="coverflow-container">
+        <ol class="coverflow-list">
+          <!-- Cover item -->
+          <input type="radio" name="cover-item" id="cover-1">
+          <li class="coverflow-item">
+            <label for="cover-1">
+              <figure class="album-cover">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3211/51psxBugNkL.jpg">
+
+              </figure>
+            </label>
+          </li>
+          <!-- Cover item -->
+          <input type="radio" name="cover-item" id="cover-2">
+          <li class="coverflow-item">
+            <label for="cover-2">
+              <figure class="album-cover">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3211/9c0075e42d1e099c487488a168db0e41.1000x1000x1.jpg" />
+
+              </figure>
+            </label>
+          </li>
+          <!-- Cover item -->
+          <input type="radio" name="cover-item" id="cover-3">
+          <li class="coverflow-item">
+            <label for="cover-3">
+              <figure class="album-cover">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3211/3651470.jpg">
+
+              </figure>
+            </label>
+          </li>
+
+              </figure>
+            </label>
+          </li>
+
+
+
+        </ol>
+      </div>
+
+    </div>
+  </div>
+  <div class="kas2_2"></div>
+  </div>
+
+
+</div>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/freelancer.min.js"></script>
+
+  </body>
+
+</html>
