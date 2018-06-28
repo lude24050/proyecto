@@ -1,0 +1,30 @@
+#video{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background: url(Fondo Video Background HD Full Spiral Groove.mp4) no-repeat;
+  background-size: cover;
+}
+
+video{
+  display: block;
+}
+
+p.sesion{
+ color: green;
+ font-family: "Eras Bold ITC";
+}
+
+#lin{
+  border-color: black;
+}
+
+#inicio{
+  font-family: "Bauhaus 93";
+  color:#66CDAA;
+}
