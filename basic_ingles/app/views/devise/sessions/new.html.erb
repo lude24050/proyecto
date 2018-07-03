@@ -1,0 +1,25 @@
+<div class="new_user2">
+  <center>
+  <h2>Iniciar Sesion</h2>
+</center>
+  <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+    <div class="field">
+      <p class="us">
+      <%= f.label :username,"Usuario" %><br /></p>
+      <%= f.text_field :username, autofocus: true %>
+
+    </div>
+
+    <div class="field">
+        <p class="us">
+      <%= f.label :password %><br /></p>
+      <%= f.password_field :password, autocomplete: "off" %>
+    </div>
+
+    <div class="actions">
+      <%= f.submit "Entrar" %>
+      <br>
+    </div>
+
+  <% end %>
+</div>

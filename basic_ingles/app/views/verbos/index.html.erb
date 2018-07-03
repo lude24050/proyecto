@@ -1,0 +1,34 @@
+<div class="game">
+  <center>
+  <p id="notice"><%= notice %></p>
+<div class="mk">
+  <h1>Verbos</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Palabra</th>
+        <th>Significado</th>
+        <th colspan="3"></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% @verbos.each do |verbo| %>
+        <tr>
+          <td><%= verbo.palabra %></td>
+          <td><%= verbo.significado %></td>
+          <td><%= link_to 'Ver', verbo %></td>
+          <td><%= link_to 'Editar', edit_verbo_path(verbo) %></td>
+          <td><%= link_to 'Eliminar', verbo, method: :delete, data: { confirm: '¿Estas seguro?' } %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+
+  <br>
+
+  <%= link_to 'New Verbo', new_verbo_path %>
+</center>
+</div>
+</div>

@@ -1,0 +1,42 @@
+<div class="new_user3" id="ini">
+  <center>
+<h2>Registrarse</h2>
+</center>
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+  <%= devise_error_messages! %>
+
+  <div class="field">
+    <p class="re">
+    <%= f.label :username %><br />
+
+    <p class="re1">
+    <%= f.text_field :username, autofocus: true %>
+      </p>
+  </div>
+
+  <div class="field">
+    <p class="re">
+    <%= f.label :password ,"Contraseña"%>
+    </p>
+    <% if @minimum_password_length %>
+    <em>(<%= @minimum_password_length %>  <p class="re2_2"> caracteres minimo</p>)</em>
+    <% end %><br />
+    <p class="psf">
+    <%= f.password_field :password, autocomplete: "off" %>
+  </p>
+  </div>
+
+  <div class="field">
+    <p class="re2">
+    <%= f.label :password_confirmation, "Confirmar contraseña" %><br />
+    </p>
+    <p class="psf2">
+    <%= f.password_field :password_confirmation, autocomplete: "off" %>
+  </p>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "Registrar" %>
+  </div>
+<% end %>
+</div>

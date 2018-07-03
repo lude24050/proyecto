@@ -1,0 +1,87 @@
+<!-- <div class="game1">
+  <h1>Bienvenido al juego 1</h1>
+  <button id="Respuesta" type="button"  name=""><%=@l_significado.palabra%> </button>
+  <p><strong>Seleccione la opcion correcta</strong></p>
+
+  <button id="Opcion1" type="button" name="button"><%= @l_palabra[0].significado%></button>
+  <button id="Opcion2" type="button" name="button"><%= @l_palabra[1].significado%></button>
+  <br>
+  <button id="Opcion3" type="button" name="button"><%= @l_palabra[2].significado%></button>
+  <button id="Opcion4" type="button" name="button"><%= @l_palabra[3].significado%></button>
+
+
+</div> -->
+<div class="wrapper">
+      <header>
+            <nav>
+                  <div class="menu-icon">
+                        <i class="fa fa-bars fa-2x"></i>
+                  </div>
+
+            </nav>
+            <div class="macj">
+
+                <div class="ma_1">
+
+                      <p id="parrafo"><%=@l_significado.palabra%></p>
+                </div>
+                <br>
+                  <div class="mas">
+                    <div class="ma_2">
+                        <button class="boto" id="b1" ><%= @l_palabra[0].significado%></button>
+                    </div>
+                    <div class="ma_3">
+                        <button class="boto"  id="b2"><%= @l_palabra[1].significado%></button>
+                    </div>
+                  </div>
+
+                <div class="mas2">
+                  <div class="ma_4">
+                      <button class="boto" id="b3"><%= @l_palabra[2].significado%></button>
+                  </div>
+
+                  <div class="ma_5">
+                      <button class="boto" id="b4"><%= @l_palabra[3].significado%></button>
+                  </div>
+                </div>
+            </div>
+      </header>
+
+      <div class="content">
+
+      </div>
+      <p id="correcta" style='display:none;'><%=@l_significado.significado%></p>
+<div class="rpta">
+  <p id="pa">RESPUESTA:<strong id="Muestra"></strong></p>
+  <img id="img1"src="http://www.culturizate.com/wp-content/uploads/2017/02/Conoce-15-frases-que-probablemente-has-usado-mal-siempre-3.png" alt="">
+  <img id="img2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/White_X_in_red_background.svg/450px-White_X_in_red_background.svg.png" alt="">
+</div>
+
+      <i class="fas fa-check-circle"></i>
+
+</div>
+
+<script type="text/javascript">
+
+// Menu-toggle button
+
+$(document).ready(function() {
+      $(".menu-icon").on("click", function() {
+            $("nav ul").toggleClass("showing");
+      });
+});
+
+// Scrolling Effect
+
+$(window).on("scroll", function() {
+      if($(window).scrollTop()) {
+            $('nav').addClass('black');
+      }
+
+      else {
+            $('nav').removeClass('black');
+      }
+})
+
+
+</script>

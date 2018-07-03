@@ -1,0 +1,27 @@
+<%= form_with(model: verbo, local: true) do |form| %>
+  <% if verbo.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(verbo.errors.count, "error") %> prohibited this verbo from being saved:</h2>
+
+      <ul>
+      <% verbo.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :palabra %>
+    <%= form.text_field :palabra %>
+  </div>
+
+  <div class="field">
+    <%= form.label :significado %>
+    <%= form.text_field :significado %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,17 @@
+
+<div class="de">
+  <p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Palabra:</strong>
+  <%= @verbo.palabra %>
+</p>
+
+<p>
+  <strong>Significado:</strong>
+  <%= @verbo.significado %>
+</p>
+
+<%= link_to 'Edit', edit_verbo_path(@verbo) %> |
+<%= link_to 'Back', verbos_path %>
+</div>
