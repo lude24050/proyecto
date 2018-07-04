@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+<p>Estoy en el index principal de html</p>
+<h1>Sustantivos</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Palabra</th>
+      <th>Comentario</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @sustantivos.each do |sustantivo| %>
+      <tr>
+        <td><%= sustantivo.palabra %></td>
+        <td><%= sustantivo.comentario %></td>
+        <td><%= link_to 'Show', sustantivo %></td>
+        <td><%= link_to 'Edit', edit_sustantivo_path(sustantivo) %></td>
+        <td><%= link_to 'Destroy', sustantivo, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Sustantivo', new_sustantivo_path %>

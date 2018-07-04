@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Responsive Sticky Navbar</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+      <div class="wrapper">
+            <header>
+
+                  <nav>
+
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+
+                        <div class="logo">
+                              LOGO
+                        </div>
+
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Contact</a></li>
+                              </ul>
+                        </div>
+                        <div class="principal">
+                        <div class="letras">
+                          <div class="primer">
+                            <input type="text" class="l"class="A" value="A" disabled="disabled">
+                            <input type="text"  class="l" class="H" value="H" disabled="disabled">
+                            <input type="text" class="l" class="O" value="O" disabled="disabled">
+                          </div>
+                           <div class="segundo">
+                             <input type="text" class="l2" class="R" value="R" disabled="disabled">
+                             <input type="text"class="l2" class="C" value="C" disabled="disabled">
+                             <input type="text" class="l2" class="A" value="A" disabled="disabled">
+                           </div>
+                          <div class="tercer">
+                            <input type="text" class="l3" class="D" value="D" disabled="disabled">
+                            <input type="text" class="l3" class="O" value="O" disabled="disabled">
+                          </div>
+                        </div><br>
+                        <div class="juego">
+                           <div class="palabras">
+                               <input type="text" class="palabra">
+                               <input type="text" class="palabra">
+                               <input type="text" class="palabra">
+                               <input type="text" class="palabra">
+                               <input type="text" class="palabra">
+                               <input type="text" class="palabra">
+                          </div>
+                            <button type="button" class="button">JUGAR </button>
+                        </div>
+                      </div>
+                  </nav>
+            </header>
+            <div class="content">
+
+            </div>
+
+      </div>
+      <script type="text/javascript">
+
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+
+      </script>
+</body>
+</html>

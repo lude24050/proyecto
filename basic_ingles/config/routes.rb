@@ -5,5 +5,12 @@ Rails.application.routes.draw do
   resources :verbos
   root to:'bienvenida#index'
   get 'games/games'
+  resources :juegos
+  resources :sustantivos do
+    collection do
+      get :reto
+      get :ahorcado
+    end
+  end
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

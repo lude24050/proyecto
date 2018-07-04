@@ -1,0 +1,27 @@
+<%= form_with(model: sustantivo, local: true) do |form| %>
+  <% if sustantivo.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(sustantivo.errors.count, "error") %> prohibited this sustantivo from being saved:</h2>
+
+      <ul>
+      <% sustantivo.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :palabra %>
+    <%= form.text_field :palabra %>
+  </div>
+
+  <div class="field">
+    <%= form.label :comentario %>
+    <%= form.text_area :comentario %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

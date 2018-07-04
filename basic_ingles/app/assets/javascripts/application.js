@@ -36,4 +36,55 @@ $("document").ready(function (){
   $("#cover-6").click(function(){
     alert("hola");
   });
+  //////////////////////////////////////////////////77
+  $('#boton').on("click", function(){
+    for(var x=1; x<=5; x++){
+      if($("#"+x+"").val() == $("#1"+x+"").text()){
+      }else {
+        var mal = 1;
+      }
+      console.log($("#"+x+"").val());
+      console.log($("#1"+x+"").text());
+    }
+
+    if(mal == 1){
+      alert("eres malo");
+    }
+  });
+  //para
+  $("#boton2").click(function(){
+    $(".desva").hide();
+    console.log("devanecer");
+  });
+
+//para el ahorcado
+  cont = 0;
+  $("#h1").hide();
+  $("#h2").hide();
+  $("#h3").hide();
+  $("#boton3").click(function(){
+    pal = $("#pal").text();
+    pal2= "";
+
+    for(var x=0; x<pal.length; x++){
+      if($("#a"+x+"")[0].tagName == "INPUT"){
+        pal2+=$("#a"+x+"").val();
+      }else{
+        pal2+=$("#a"+x+"").text();
+      }
+    }
+
+    if(pal2 == pal){
+      alert("Ganaste")
+    }else {
+      cont+=1
+      $("#h"+cont+"").show();
+    }
+
+    if(cont == 3){
+      alert("Perdiste");
+    }
+    console.log(pal2);
+  });
+  $("#pal").hide(4000);
 });

@@ -1,0 +1,18 @@
+<p id="notice"><%= notice %></p>
+<p>EStoy en show.html.erb</p>
+<p>
+  <strong>Palabra:</strong>
+  <%= @sustantivo.palabra %>
+</p>
+
+<p>
+  <strong>Comentario:</strong>
+  <%= @sustantivo.comentario %>
+</p>
+
+<p>
+  <strong></strong>
+</p>
+
+<%= link_to 'Edit', edit_sustantivo_path(@sustantivo) %> |
+<%= link_to 'Back', sustantivos_path %>

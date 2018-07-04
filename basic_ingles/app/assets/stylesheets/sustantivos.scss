@@ -1,0 +1,274 @@
+// Place all the styles related to the sustantivos controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+// html, body {
+//       margin: 0;
+//       padding: 0;
+//       width: 100%;
+// }
+//
+// body {
+//       font-family: "Helvetica Neue",sans-serif;
+//       font-weight: lighter;
+// }
+//
+// header {
+//       width: 100%;
+//       height: 100vh;
+//       background: url(hero.jpg) no-repeat 50% 50%;
+//       background-size: cover;
+// }
+//
+// .content {
+//       width: 94%;
+//       margin: 4em auto;
+//       font-size: 20px;
+//       line-height: 30px;
+//       text-align: justify;
+// }
+//
+// .logo {
+//       line-height: 60px;
+//       position: fixed;
+//       float: left;
+//       margin: 16px 46px;
+//       color: #fff;
+//       font-weight: bold;
+//       font-size: 20px;
+//       letter-spacing: 2px;
+// }
+//
+// nav {
+//       position: fixed;
+//       width: 100%;
+//       line-height: 60px;
+// }
+//
+// nav ul {
+//       line-height: 60px;
+//       list-style: none;
+//       background: rgba(0, 0, 0, 0);
+//       overflow: hidden;
+//       color: #fff;
+//       padding: 0;
+//       text-align: right;
+//       margin: 0;
+//       padding-right: 40px;
+//       transition: 1s;
+// }
+//
+// nav.black ul {
+//       background: #000;
+// }
+//
+// nav ul li {
+//       display: inline-block;
+//       padding: 16px 40px;;
+// }
+//
+// nav ul li a {
+//       text-decoration: none;
+//       color: #fff;
+//       font-size: 16px;
+// }
+//
+// .menu-icon {
+//       line-height: 60px;
+//       width: 10%;
+//       background: #000;
+//       text-align: right;
+//       box-sizing: border-box;
+//       padding: 15px 24px;
+//       cursor: pointer;
+//       color: #fff;
+//       display: none;
+// }
+//
+// @media(max-width: 786px) {
+//
+//       .logo {
+//             position: fixed;
+//             top: 0;
+//             margin-top: 16px;
+//       }
+//
+//       nav ul {
+//             max-height: 0px;
+//             background: #000;
+//       }
+//
+//       nav.black ul {
+//             background: #000;
+//       }
+//
+//       .showing {
+//             max-height: 34em;
+//       }
+//
+//       nav ul li {
+//             box-sizing: border-box;
+//             width: 100%;
+//             padding: 24px;
+//             text-align: center;
+//       }
+//
+//       .menu-icon {
+//             display: block;
+//       }
+//
+// }
+// .principal{
+//   margin-top: 15px;
+//   border:3px solid #7FFFD4;
+//   border-radius: 5px;
+//   margin-left: 25px;
+//   width: 1300px;
+//   height: 500px;
+//   background-image: url(fon.jpg);
+// }
+// .primer{
+//   margin-left: 80px;
+//   width: 420px;
+//
+// }
+// .segundo{
+//   width: 420px;
+//   margin-left:500px;
+//   margin-top: -131px;
+// }
+// .tercer{
+//   width: 350px;
+//   margin-left:930px;
+//   margin-top: -131px;
+// }
+// input{
+//   margin-left: 48px;
+//   margin-top: 30px;
+//   width: 100px;
+//   height: 95px;
+//   size: 50;
+//   text-align: center;
+//   font-size: 50px;
+//   border-radius: 10px;
+//   border: 3px solid #FFA500;
+//   color:red;
+//   background-color: black;
+//   font-family: "Broadway";
+// }
+//
+// .l{
+//   margin-left: 20px
+// }
+//
+// .l2{
+//   margin-left: 20px;
+// }
+//
+// .l3{
+// margin-left: 20px;
+// }
+//
+// .button{
+//   margin-left: 100px;
+//   text-align: center;
+//   height: 30px;
+//   width: 120px;
+//   margin-top: 50px;
+//   background-color: black;
+//   color: white;
+//   font-family: "Bauhaus 93";
+//   cursor:pointer;
+// }
+// .button:hover{
+//   background: rgba(0,0,0,0);
+//   color: black;
+//   box-shadow: inset 0 0 0 3px blue;
+// }
+// .palabras{
+//
+// height: 200px;
+// margin-left: 45px;
+// }
+// .palabra{
+//   margin-left: 130px;
+//   margin-top: 30px;
+//   width: 40px;
+//   height: 40px;
+//   size: 40;
+//   text-align: center;
+//   border-radius: 3px;
+//   border: 3px solid blue;
+//   color:red;
+//   background-color: white;
+//   font-family: "Bauhaus 93";
+//   font-size: 30px;
+// }
+// #ejem{
+//   width: 500px;
+//   height: 100px;
+//   background-color:red;
+// }
+
+.rn{
+  background-image: url();
+  background-color: white;
+  width: 1000px;
+
+  margin-left: 150px;
+  border-radius: 20px;
+  border:10px solid;
+  margin-bottom: 100px;
+}
+.ah{
+  font-family:"Bauhaus 93";
+  width:600px;
+  height:70px;
+}
+.it{
+  width:60px;
+  font-size: 80px;
+  background-color:#70acff;
+  color: red;
+  font-family:"Bauhaus 93";
+}
+.pl{
+  font-size: 86px;
+  font-family:"Bauhaus 93";
+
+
+
+}
+#boton3{
+  margin-top:40px;
+}
+.ps{
+  font-size:60px;
+}
+#pal{
+  font-size:50px;
+  margin-top:60px;
+  height: 35px;
+
+}
+.tt{
+  font-size:60px
+
+}
+.be:hover{
+cursor:pointer;
+width:250px;
+height:50px;
+}
+.be{
+  margin: 10px;
+  background-color: orange;
+  color: black;
+  border-radius: 20px;
+}
+.bk{
+  background-color: red;
+}
+.rc{
+
+  width:500px;
+}
