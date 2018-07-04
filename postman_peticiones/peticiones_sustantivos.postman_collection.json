@@ -1,0 +1,989 @@
+{
+	"info": {
+		"_postman_id": "fdfe1f94-3afc-43c0-a5d8-ae382d185082",
+		"name": "peticiones_sustantivos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/sustantivos",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"disabled": false
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "palabra",
+							"value": "answer",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "significado",
+							"value": "respuesta",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "caracteres",
+							"value": "6",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "n_dificultadad",
+							"value": "medio",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "sinonimos",
+							"value": "response",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "antonimos",
+							"value": "problem",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/sustantivos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"sustantivos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/sustantivos",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"disabled": false
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "palabra",
+							"value": "purse",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "significado",
+							"value": "cartera",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "caracteres",
+							"value": "5",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "n_dificultadad",
+							"value": "medio",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "sinonimos",
+							"value": "handbag",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "antonimos",
+							"value": "loss",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/sustantivos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"sustantivos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/sustantivos",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"disabled": false
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "palabra",
+							"value": "purse",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "significado",
+							"value": "cartera",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "caracteres",
+							"value": "5",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "n_dificultadad",
+							"value": "medio",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "sinonimos",
+							"value": "handbag",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "antonimos",
+							"value": "loss",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/sustantivos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"sustantivos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/sustantivos",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"disabled": false
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "palabra",
+							"value": "purse",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "significado",
+							"value": "cartera",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "caracteres",
+							"value": "5",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "n_dificultadad",
+							"value": "medio",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "sinonimos",
+							"value": "handbag",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "antonimos",
+							"value": "loss",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/sustantivos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"sustantivos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/sustantivos",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"disabled": false
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "palabra",
+							"value": "city",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "significado",
+							"value": "ciudad",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "caracteres",
+							"value": "4",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "n_dificultadad",
+							"value": "facil",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "sinonimos",
+							"value": "burghal",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "antonimos",
+							"value": "rural",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/sustantivos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"sustantivos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/sustantivos",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"disabled": false
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "palabra",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "significado",
+							"value": "Perro",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "caracteres",
+							"value": "2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "n_dificultadad",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "sinonimos",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "antonimos",
+							"value": "",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/sustantivos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"sustantivos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/verbos",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"disabled": false
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nombre",
+							"value": "Fido",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "tipo",
+							"value": "Perro",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "edad",
+							"value": "2",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/verbos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"verbos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/sustantivos",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "palabra",
+							"value": "Head",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "significado",
+							"value": "Cabeza",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "caracteres",
+							"value": "4",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "n_dificultadad",
+							"value": "facil",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "sinonimos",
+							"value": "arch",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "antonimos",
+							"value": "auxiliary",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/sustantivos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"sustantivos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/sustantivos",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "palabra",
+							"value": "face",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "significado",
+							"value": "cara",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "caracteres",
+							"value": "4",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "n_dificultadad",
+							"value": "facil",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "sinonimos",
+							"value": "look",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "antonimos",
+							"value": "grin",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/sustantivos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"sustantivos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/sustantivos",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "palabra",
+							"value": "Gift",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "significado",
+							"value": "regalo",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "caracteres",
+							"value": "4",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "n_dificultadad",
+							"value": "medio",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "sinonimos",
+							"value": "allowance",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "antonimos",
+							"value": "hurt",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/sustantivos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"sustantivos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/sustantivos",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "palabra",
+							"value": "Teacher",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "significado",
+							"value": "Profesor",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "caracteres",
+							"value": "7",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "n_dificultadad",
+							"value": "facil",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "sinonimos",
+							"value": "assistant",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "antonimos",
+							"value": "pupil",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/sustantivos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"sustantivos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/sustantivos/5b3d0f6648d6394324e5796f",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "palabra",
+							"value": "Head",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "significado",
+							"value": "Cabeza",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "caracteres",
+							"value": "4",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "n_dificultadad",
+							"value": "facil",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "sinonimos",
+							"value": "arch",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "antonimos",
+							"value": "auxiliary",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/sustantivos/5b3d0f6648d6394324e5796f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"sustantivos",
+						"5b3d0f6648d6394324e5796f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/sustantivos",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "palabra",
+							"value": "Head",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "significado",
+							"value": "Cabeza",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "caracteres",
+							"value": "4",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "n_dificultadad",
+							"value": "facil",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "sinonimos",
+							"value": "arch",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "antonimos",
+							"value": "auxiliary",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/sustantivos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"sustantivos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/sustantivos",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "palabra",
+							"value": "Time",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "significado",
+							"value": "tiempo",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "caracteres",
+							"value": "4",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "n_dificultadad",
+							"value": "facil",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "sinonimos",
+							"value": "age",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "antonimos",
+							"value": "ending",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/sustantivos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"sustantivos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/sustantivos",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "palabra",
+							"value": "Time",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "significado",
+							"value": "tiempo",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "caracteres",
+							"value": "4",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "n_dificultadad",
+							"value": "facil",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "sinonimos",
+							"value": "age",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "antonimos",
+							"value": "ending",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/sustantivos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"sustantivos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
